@@ -1,0 +1,25 @@
+{
+  "name": "node-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cluster": "^0.7.7",
+    "express": "^4.18.2",
+    "jest": "^29.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2",
+    "process": "^0.11.10",
+    "supertest": "^6.3.1",
+    "worker-thread": "^1.1.0"
+  }
+}
